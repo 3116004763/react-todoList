@@ -1,0 +1,34 @@
+.content {
+  width: 40%;
+  padding: 0 5px;
+  margin: 5px;
+  display: inline-block;
+}
+.add_btn {
+}
+.list_container {
+  padding-left: 0;
+}
+.list {
+  font-size: 1.2em;
+  margin: 1.8em 0 0;
+  list-style: none;
+  line-height: 1.5em;
+  cursor: pointer;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+.del_text {
+  text-decoration: line-through;
+}
+.filter {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.filter > span {
+  cursor: pointer;
+}
